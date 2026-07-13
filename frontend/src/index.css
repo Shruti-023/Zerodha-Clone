@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+/* ================= HERO ================= */
+
+#supportHero {
+  background: #387ed1;
+  color: white;
+  padding: 40px 0 55px;
+}
+
+#supportHero .container {
+  max-width: 1100px;
+}
+
+/* ---------- Top Row ---------- */
+
+.supportHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supportHeader h5 {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 400;
+}
+
+.supportHeader a {
+  color: white;
+  font-size: 1rem;
+}
+
+/* ---------- Bottom Row ---------- */
+
+.heroContent {
+  margin-top: 70px;
+}
+
+.heroContent h2 {
+  font-size: 2.1rem;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+/* ---------- Search ---------- */
+
+#supportHero input {
+  width: 100%;
+  max-width: 620px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+#supportHero input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ---------- Links ---------- */
+
+.quickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.quickLinks a {
+  color: white;
+  font-size: 18px;
+}
+
+/* ---------- Featured ---------- */
+
+.featuredSection {
+  padding-left: 70px;
+}
+
+.featuredSection h2 {
+  margin-bottom: 30px;
+}
+
+.featuredSection ol {
+  padding-left: 18px;
+}
+
+.featuredSection li {
+  margin-bottom: 22px;
+}
+
+.featuredSection a {
+  color: white;
+  font-size: 18px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 992px) {
+
+  .heroContent {
+    margin-top: 40px;
+  }
+
+  .featuredSection h2 {
+  font-size: 1.2rem;   
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.heroContent h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 650px;
+}
+
+  .quickLinks {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: #6c757d;
+  margin-bottom: 2px;
+  line-height: 1;
+}
+
+.footer-bottom-links {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.footer-bottom-links a {
+  color: #9b9b9b;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-bottom-links a:hover {
+  color: #387ed1;
+}
